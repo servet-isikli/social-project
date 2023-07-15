@@ -6,7 +6,9 @@ function AccordionCom() {
   return (
     <Accordion>
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Freiwilligendienste</Accordion.Header>
+        <Accordion.Header>
+          Ehrenamtlich engagieren - Freiwilligendienste
+        </Accordion.Header>
         <Accordion.Body>
           <ListGroup>
             <Freiwilligendienste />

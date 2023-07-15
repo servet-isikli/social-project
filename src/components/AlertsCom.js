@@ -3,18 +3,18 @@ import Alert from "react-bootstrap/Alert";
 function AlertsCom() {
   return (
     <Alert variant="success" className="text-left mt-2">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
+      <Alert.Heading>Merhaba, sizi görmek güzel!</Alert.Heading>
       <p>
-        Step into our project dedicated to the captivating realm of
-        socialization, where individuals forge meaningful connections and share
-        invaluable experiences. Join us on this enlightening journey as we
-        explore the heart of the social world. Your presence is warmly welcomed
-        and cherished!
+        Sosyalleşmenin etkileyici dünyasına adım atın, insanların anlamlı
+        bağlantılar kurduğu ve değerli deneyimler paylaştığı projemize hoş
+        geldiniz! Sosyal dünyanın kalbine doğru bu aydınlatıcı yolculukta
+        bizimle birlikte olun. Sizin varlığınız sıcak bir şekilde karşılanacak
+        ve değerli bulunacaktır!
       </p>
       <hr />
       <p className="mb-0">
-        Explore the enchanting realm of socialization, where connections thrive
-        and stories intertwine. Let's embark on this journey together!
+        Keşfe çıkalım, bağlantıların geliştiği ve hikayelerin kesiştiği
+        etkileyici sosyal dünyanın içinde buluşalım!
       </p>
     </Alert>
   );
