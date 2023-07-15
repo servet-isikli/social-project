@@ -1,9 +1,9 @@
 import React from "react";
-import kinderbetreuungData from "../data/kinderbetreuungData";
+import hilfeFurFluchtlingeData from "../data/hilfeFurFluchtlingeData";
 import Alert from "react-bootstrap/Alert";
 
-const Kinderbetreuung = () => {
-  const mappedData = kinderbetreuungData.map((item) => (
+const HilfeFurFluchtlinge = () => {
+  const mappedData = hilfeFurFluchtlingeData.map((item) => (
     <div key={item.id}>
       <h2>{item.name}</h2>
       <p>{item.description}</p>
@@ -23,4 +23,4 @@ const Kinderbetreuung = () => {
   );
 };
 
-export default Kinderbetreuung;
+export default HilfeFurFluchtlinge;

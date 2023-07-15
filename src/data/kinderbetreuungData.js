@@ -9,9 +9,9 @@ const kinderbetreuungData = [
   {
     id: 2,
     name: "Familienzentrum",
-    link: "https://www.familienzentrum.de",
     description:
       "Aile odaklı merkezlerde çocuk bakıcılığı ve ebeveyn destek programları.",
+    link: "https://www.familienzentrum.de",
   },
 ];
 

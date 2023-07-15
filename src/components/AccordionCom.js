@@ -2,6 +2,13 @@ import Accordion from "react-bootstrap/Accordion";
 import ListGroup from "react-bootstrap/ListGroup";
 import Freiwilligendienste from "../utils/Freiwilligendienste";
 import Kinderbetreuung from "../utils/Kinderbetreuung";
+import Seniorenbetreuung from "../utils/Seniorenbetreuung";
+import Sprachtandem from "../utils/Sprachtandem";
+import HilfeFurFluchtlinge from "../utils/HilfeFurFluchtlinge";
+import Sportverein from "../utils/Sportverein";
+import UmweltschutzUndReinigung from "../utils/UmweltschutzUndReinigung";
+import Tierheim from "../utils/Tierheim";
+
 
 function AccordionCom() {
   return (
@@ -28,7 +35,7 @@ function AccordionCom() {
         <Accordion.Header>Yaşlı Bakımı (Seniorenbetreuung)</Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <Seniorenbetreuung />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -36,7 +43,7 @@ function AccordionCom() {
         <Accordion.Header>Dil Tandemleri (Sprachtandem)</Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <Sprachtandem />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -46,7 +53,7 @@ function AccordionCom() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <HilfeFurFluchtlinge />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -56,7 +63,7 @@ function AccordionCom() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <UmweltschutzUndReinigung />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -66,7 +73,7 @@ function AccordionCom() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <Tierheim />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
@@ -76,7 +83,7 @@ function AccordionCom() {
         </Accordion.Header>
         <Accordion.Body>
           <ListGroup>
-            <Kinderbetreuung />
+            <Sportverein />
           </ListGroup>
         </Accordion.Body>
       </Accordion.Item>
