@@ -8,7 +8,7 @@ const Freiwilligendienste = () => {
       <h2>{item.name}</h2>
       <p>{item.description}</p>
       <a href={item.link} target="_blank" rel="noopener noreferrer">
-        {item.link}
+        {item.name}
       </a>
       <hr />
     </div>
