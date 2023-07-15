@@ -16,11 +16,11 @@ function FooterCom() {
                 web sitesindeki bilgilerin doğruluğunu garanti edilmez.
               </p>
               <p>
-                Bu bilgilerin bazıları, OpenAI tarafından geliştirilen yapay zeka dil
-                modeli olan ChatGPT tarafından sağlanmıştır. Ayrıca, genel
-                bilgilendirme amacıyla sunulmuştur ve resmi veya doğrulanmış
-                bilgiler yerine geçmez. Kaynaklarınızı doğrulamak ve resmi
-                bilgilere ulaşmak için ilgili kuruluşları veya güvenilir
+                Ayni zamanda bu bilgiler, OpenAI tarafından geliştirilen yapay
+                zeka dil modeli olan ChatGPT tarafından da sağlanmıştır. Bu
+                bilgiler genel bilgilendirme amacıyla sunulmuştur ve resmi veya
+                doğrulanmış bilgiler yerine geçmez. Kaynaklarınızı doğrulamak ve
+                resmi bilgilere ulaşmak için ilgili kuruluşları veya güvenilir
                 kaynakları kontrol etmeniz önemlidir.
               </p>
             </Row>

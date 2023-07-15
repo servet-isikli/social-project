@@ -3,7 +3,7 @@ import AlertsCom from "../components/AlertsCom";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-// import CarouselCom from "../components/CarouselCom";
+import CarouselCom from "../components/CarouselCom";
 import AccordionCom from "../components/AccordionCom";
 
 const Home = () => {
@@ -11,7 +11,7 @@ const Home = () => {
     <div>
       <Container>
         <Row>
-          <Col sm={12}>{/* <CarouselCom /> */}</Col>
+          <Col sm={12}><CarouselCom /></Col>
         </Row>
         <Row>
           <Col sm={12}>
