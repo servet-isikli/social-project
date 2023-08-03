@@ -5,23 +5,23 @@ import DataComponent from "../utils/DataComponent";
 import allData from "../data/data";
 
 const AccordionComDetail = () => {
-  const { dataType } = useParams();
-    const data = allData[dataType];
+  const { dataCategory } = useParams();
+  const data = allData[dataCategory];
 
-    if (!data) {
-      return <div>Geçersiz Veri Türü</div>; 
-    }
+  if (!data) {
+    return <div>Geçersiz Veri Türü</div>;
+  }
 
   return (
     <div className="mt-3">
       <Accordion>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>{allData[dataType][0].header}</Accordion.Header>
+          <Accordion.Header>{allData[dataCategory][0].header}</Accordion.Header>
           <Accordion.Body>
             <ListGroup>
               <Alert variant="success" className="text-left mt-2">
                 {/* <Alert.Heading></Alert.Heading> */}
-                <DataComponent dataType={dataType} />
+                <DataComponent dataCategory={dataCategory} />
               </Alert>
             </ListGroup>
           </Accordion.Body>

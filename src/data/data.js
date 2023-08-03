@@ -1,4 +1,4 @@
-const FreiwilligendiensteData = [
+const freiwilligendienste = [
   {
     id: 1,
     header: "Yardım Kuruluşlarında Gönüllü Çalışmak",
@@ -43,7 +43,7 @@ const FreiwilligendiensteData = [
   },
 ];
 
-const kinderbetreuungData = [
+const kinderbetreuung = [
   {
     id: 1,
     header: "Çocuk Bakıcılığı (Kinderbetreuung)",
@@ -61,7 +61,7 @@ const kinderbetreuungData = [
   },
 ];
 
-const seniorenbetreuungData = [
+const seniorenbetreuung = [
   {
     id: 1,
     header: "Yaşlı Bakımı (Seniorenbetreuung)",
@@ -79,7 +79,7 @@ const seniorenbetreuungData = [
   },
 ];
 
-const sprachtandemData = [
+const sprachtandem = [
   {
     id: 1,
     header: "Dil Tandemleri (Sprachtandem)",
@@ -97,7 +97,7 @@ const sprachtandemData = [
   },
 ];
 
-const hilfeFurFluchtlingeData = [
+const hilfefurfluchtlinge = [
   {
     id: 1,
     header: "Mültecilere Yardım (Hilfe für Flüchtlinge)",
@@ -114,7 +114,7 @@ const hilfeFurFluchtlingeData = [
   },
 ];
 
-const umweltschutzUndReinigungData = [
+const umweltschutzundreinigung = [
   {
     id: 1,
     header:
@@ -131,7 +131,7 @@ const umweltschutzUndReinigungData = [
   },
 ];
 
-const tierheimData = [
+const tierheim = [
   {
     id: 1,
     header: "Hayvan Barınaklarında Gönüllü Çalışmak (Tierheim):",
@@ -147,7 +147,7 @@ const tierheimData = [
   },
 ];
 
-const sportvereinData = [
+const sportverein = [
   {
     id: 1,
     header:
@@ -159,14 +159,14 @@ const sportvereinData = [
 ];
 
 const allData = {
-  FreiwilligendiensteData,
-  kinderbetreuungData,
-  seniorenbetreuungData,
-  sprachtandemData,
-  hilfeFurFluchtlingeData,
-  umweltschutzUndReinigungData,
-  tierheimData,
-  sportvereinData,
+  freiwilligendienste,
+  kinderbetreuung,
+  seniorenbetreuung,
+  sprachtandem,
+  hilfefurfluchtlinge,
+  umweltschutzundreinigung,
+  tierheim,
+  sportverein,
 };
 
 export default allData;

@@ -6,7 +6,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Detail from "./pages/Detail";
 
-
 function App() {
   return (
     <div className="App bg-slate-100">
@@ -15,7 +14,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/detail/:dataType" element={<Detail />} />
+          <Route path="/detail/:dataCategory" element={<Detail />} />
         </Routes>
         <FooterCom />
       </BrowserRouter>

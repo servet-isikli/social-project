@@ -4,18 +4,18 @@ import allData from "../data/data";
 import DataComponent from "../utils/DataComponent";
 
 function AccordionCom() {
-  const dataKeys = Object.keys(allData);
+  const dataCategory = Object.keys(allData);
 
   return (
     <Accordion>
-      {dataKeys.map((dataType, index) => (
+      {dataCategory.map((dataCategory, index) => (
         <Accordion.Item key={index} eventKey={index.toString()}>
-          <Accordion.Header>{allData[dataType][0].header}</Accordion.Header>
+          <Accordion.Header>{allData[dataCategory][0].header}</Accordion.Header>
           <Accordion.Body>
             <ListGroup>
               <Alert variant="success" className="text-left mt-2">
                 {/* <Alert.Heading></Alert.Heading> */}
-                <DataComponent dataType={dataType} />
+                <DataComponent dataCategory={dataCategory} />
               </Alert>
             </ListGroup>
           </Accordion.Body>

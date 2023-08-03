@@ -2,8 +2,8 @@ import React from "react";
 import { ListGroup } from "react-bootstrap";
 import allData from "../data/data";
 
-const DataComponent = ({ dataType }) => {
-  const data = allData[dataType];
+const DataComponent = ({ dataCategory }) => {
+  const data = allData[dataCategory];
 
   return (
     <div className="mt-3">
