@@ -27,7 +27,7 @@ const AccordionComDetail = () => {
     <div className="mt-3">
       <Accordion>
         <Accordion.Item eventKey="0">
-          <Accordion.Header>Kuruluslarin Listesi</Accordion.Header>
+          <Accordion.Header>{allData[dataType][0].header}</Accordion.Header>
           <Accordion.Body>
             <ListGroup>
               <Alert variant="success" className="text-left mt-2">

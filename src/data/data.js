@@ -1,6 +1,7 @@
 const FreiwilligendiensteData = [
   {
     id: 1,
+    header: "Yardım Kuruluşlarında Gönüllü Çalışmak",
     name: "Caritas - Freiwilligendienste",
     description:
       "Caritas, dünya genelinde sosyal yardım ve gönüllülük faaliyetleri yapan bir kuruluştur. Almanya'da da etkin olan Caritas, Freiwilligendienst programıyla sosyal hizmet alanında gönüllülere fırsatlar sunar, topluma yardım eder ve toplumsal sorumluluk bilincini artırır.",
@@ -42,25 +43,10 @@ const FreiwilligendiensteData = [
   },
 ];
 
-const hilfeFurFluchtlingeData = [
-  {
-    id: 1,
-    name: "Integrationsprojekte",
-    description:
-      "Mültecilere entegrasyon süreçlerinde yardımcı olmak için projeler.",
-    link: "https://www.integration-in-deutschland.de",
-  },
-  {
-    id: 2,
-    name: "Sprachunterricht",
-    description: "Mültecilere Almanca öğretme ve dil eğitimi sağlama.",
-    link: "https://www.refugeephrasebook.de",
-  },
-];
-
 const kinderbetreuungData = [
   {
     id: 1,
+    header: "Çocuk Bakıcılığı (Kinderbetreuung)",
     name: "Elterninitiative",
     description:
       "Ebeveynler tarafından oluşturulan yerel inisiyatifler aracılığıyla çocuk bakıcılığı hizmeti sunma.",
@@ -78,6 +64,7 @@ const kinderbetreuungData = [
 const seniorenbetreuungData = [
   {
     id: 1,
+    header: "Yaşlı Bakımı (Seniorenbetreuung)",
     name: "Seniorenheim",
     description:
       "Yaşlı bakım evlerinde gönüllü olarak zaman geçirme ve yardım etme.",
@@ -95,6 +82,7 @@ const seniorenbetreuungData = [
 const sprachtandemData = [
   {
     id: 1,
+    header: "Dil Tandemleri (Sprachtandem)",
     name: "Tandem-Partner finden",
     description:
       "Dil öğrenmek isteyenlerle iletişim kurabileceğiniz bir platform.",
@@ -109,24 +97,28 @@ const sprachtandemData = [
   },
 ];
 
-const tierheimData = [
+const hilfeFurFluchtlingeData = [
   {
     id: 1,
-    name: "Tierschutzverein",
-    description: "Hayvanları koruma ve barınaklarda gönüllü olarak çalışma",
-    link: "https://www.tierschutzverein.de",
+    header: "Mültecilere Yardım (Hilfe für Flüchtlinge)",
+    name: "Integrationsprojekte",
+    description:
+      "Mültecilere entegrasyon süreçlerinde yardımcı olmak için projeler.",
+    link: "https://www.integration-in-deutschland.de",
   },
   {
     id: 2,
-    name: "Pfotentraum",
-    description: "Evsiz hayvanlara yardım eden hayvan barınakları.",
-    link: "https://www.pfotentraum.de",
+    name: "Sprachunterricht",
+    description: "Mültecilere Almanca öğretme ve dil eğitimi sağlama.",
+    link: "https://www.refugeephrasebook.de",
   },
 ];
 
 const umweltschutzUndReinigungData = [
   {
     id: 1,
+    header:
+      "Çevre Koruma ve Temizlik Faaliyetleri (Umweltschutz und Reinigung):",
     name: "Naturschutzprojekte",
     description: "Çevre projelerine katılım ve doğal alanları koruma",
     link: "https://www.bund.net",
@@ -139,14 +131,42 @@ const umweltschutzUndReinigungData = [
   },
 ];
 
+const tierheimData = [
+  {
+    id: 1,
+    header: "Hayvan Barınaklarında Gönüllü Çalışmak (Tierheim):",
+    name: "Tierschutzverein",
+    description: "Hayvanları koruma ve barınaklarda gönüllü olarak çalışma",
+    link: "https://www.tierschutzverein.de",
+  },
+  {
+    id: 2,
+    name: "Pfotentraum",
+    description: "Evsiz hayvanlara yardım eden hayvan barınakları.",
+    link: "https://www.pfotentraum.de",
+  },
+];
+
+const sportvereinData = [
+  {
+    id: 1,
+    header:
+      "Spor Kulüplerinde Antrenörlük veya Yönetim Görevleri (Sportverein):",
+    name: "Sportverein in deiner Stadt",
+    description:
+      "Yerel spor kulüplerine katılım ve antrenörlük için iletişim. Örneğin, Berlin'deki spor kulüpleri şeklinde arama yapabilirsiniz.",
+  },
+];
+
 const allData = {
   FreiwilligendiensteData,
-  hilfeFurFluchtlingeData,
   kinderbetreuungData,
   seniorenbetreuungData,
   sprachtandemData,
-  tierheimData,
+  hilfeFurFluchtlingeData,
   umweltschutzUndReinigungData,
+  tierheimData,
+  sportvereinData,
 };
 
 export default allData;
