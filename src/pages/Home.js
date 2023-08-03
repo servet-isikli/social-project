@@ -11,7 +11,9 @@ const Home = () => {
     <div>
       <Container>
         <Row>
-          <Col sm={12}><CarouselCom /></Col>
+          <Col sm={12}>
+            <CarouselCom />
+          </Col>
         </Row>
         <Row>
           <Col sm={12}>
