@@ -8,8 +8,8 @@ function AccordionCom() {
 
   return (
     <Accordion>
-      {dataCategory.map((dataCategory, index) => (
-        <Accordion.Item key={index} eventKey={index.toString()}>
+      {dataCategory.map((dataCategory) => (
+        <Accordion.Item key={dataCategory} eventKey={dataCategory}>
           <Accordion.Header>{allData[dataCategory][0].header}</Accordion.Header>
           <Accordion.Body>
             <ListGroup>
