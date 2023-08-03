@@ -5,10 +5,6 @@ import allData from "../data/data";
 const DataComponent = ({ dataType }) => {
   const data = allData[dataType];
 
-  if (!data) {
-    return <div>Geçersiz Veri Türü</div>;
-  }
-
   return (
     <div className="mt-3">
       <ListGroup>
