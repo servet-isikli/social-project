@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import DataComponent from "../utils/DataComponent";
 import allData from "../data/data";
 
-const AccordionComDetail = () => {
+const AccordionDetailCom = () => {
   const { dataCategory } = useParams();
   const data = allData[dataCategory];
 
@@ -31,4 +31,4 @@ const AccordionComDetail = () => {
   );
 };
 
-export default AccordionComDetail;
+export default AccordionDetailCom;

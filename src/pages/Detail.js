@@ -2,7 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import AccordionComDetail from "../components/AccordionComDetail";
+import AccordionDetailCom from "../components/AccordionDetailCom";
 
 const Detail = () => {
   return (
@@ -10,7 +10,7 @@ const Detail = () => {
       <Container>
         <Row>
           <Col sm={12}>
-            <AccordionComDetail />
+            <AccordionDetailCom />
           </Col>
         </Row>
       </Container>
