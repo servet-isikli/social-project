@@ -2,7 +2,7 @@ import Alert from "react-bootstrap/Alert";
 
 function AlertsCom() {
   return (
-    <Alert variant="danger" className="text-left mt-2">
+    <Alert variant="primary" className="text-left mt-2">
       <Alert.Heading>Merhaba, sizi görmek güzel!</Alert.Heading>
       <p>
         Sosyalleşmenin etkileyici dünyasına adım atın, insanların anlamlı
