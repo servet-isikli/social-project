@@ -1,47 +1,47 @@
-import { Col, Container, Row } from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import Card from "react-bootstrap/Card";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
 
-function FooterCom() {
+function ComNavbar() {
   return (
-    <Card className="mt-3">
-      <Card.Body>
-        <Card.Title>Socialization Project</Card.Title>
-        <Card.Text className="text-xs">
-          <Container>
-            <Row>
-              <Col sm={12}></Col>
-              <p>
-                Bu web sitesi geliştirme aşamasındaki bir projedir.
-                {/* Doğa yürüyüşleri, Sinema ve tiyatro etkinlikleri, Spor
-                etkinliklerine katılma, Müzik konserleri ve festivalleri, Sanat
-                sergilerini gezip inceleme, Yemek yeme etkinlikleri ve restoran
-                deneyimleri, Gönüllü çalışmalara katılma, Sosyal yardım ve bağış
-                faaliyetleri, Kitap kulüplerine katılma, Kahve veya çay
-                buluşmaları, Oyun geceleri düzenleme veya katılma, Dans
-                etkinliklerine katılma, Konferans ve seminerlere katılma, Spor
-                takımlarına destek verme, Piknik ve barbekü etkinlikleri
-                düzenleme */}
-              </p>
-              <p>
-                Web sitesindeki bilgilerin doğruluğunu garanti edilmez. Bilgiler
-                genel bilgilendirme amacıyla sunulmuş olup resmi veya
-                doğrulanmış bilgiler yerine geçmez. Bu bilgiler derlenerek ve
-                OpenAI tarafından geliştirilen yapay zeka dil modeli olan
-                ChatGPT tarafından da sağlanmıştır. Kaynaklarınızı doğrulamak ve
-                resmi bilgilere ulaşmak için ilgili kuruluşları veya güvenilir
-                kaynakları kontrol etmeniz önemlidir.
-              </p>
-            </Row>
-          </Container>
-        </Card.Text>
-        <Button variant="primary" href="/about">
-          Contact Us
-        </Button>
-      </Card.Body>
-      <Card.Header>Socialization Project - 2023</Card.Header>
-    </Card>
+    <Navbar
+      expand="lg"
+      className="bg-body-tertiary mt-3"
+      bg="dark"
+      data-bs-theme="dark"
+    >
+      <Container>
+        <Row>
+          <Col>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto flex-column">
+                <Col>
+                  <Navbar.Brand href="/">Socialization Project</Navbar.Brand>
+                </Col>
+
+                <Nav.Link className="text-sm">
+                  Bu web sitesi geliştirme aşamasındaki bir projedir.
+                </Nav.Link>
+
+                <Nav.Link className="text-sm">
+                  Web sitesindeki bilgilerin doğruluğunu garanti edilmez.
+                  Bilgiler genel bilgilendirme amacıyla sunulmuş olup resmi veya
+                  doğrulanmış bilgiler yerine geçmez. Bu bilgiler derlenerek ve
+                  OpenAI tarafından geliştirilen yapay zeka dil modeli olan
+                  ChatGPT tarafından da sağlanmıştır. Kaynaklarınızı doğrulamak
+                  ve resmi bilgilere ulaşmak için ilgili kuruluşları veya
+                  güvenilir kaynakları kontrol etmeniz önemlidir.
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Col>
+        </Row>
+      </Container>
+    </Navbar>
   );
 }
 
-export default FooterCom;
+export default ComNavbar;
