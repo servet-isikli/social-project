@@ -8,14 +8,10 @@ function ListGroupCom() {
   const dataCategory = Object.keys(allData);
 
   return (
-    <Container className="mt-3">
+    <Container className="mt-3 ">
       <ListGroup>
         {dataCategory.map((category) => (
-          <ListGroup.Item
-            key={category}
-            variant="success"
-            className="fw-bold "
-          >
+          <ListGroup.Item key={category} variant="success">
             <Link to={`/detail/${category}`}>
               {allData[category][0].header}
             </Link>{" "}
