@@ -8,7 +8,11 @@ const AccordionDetailCom = () => {
   const data = allData[dataCategory];
 
   if (!data) {
-    return <div>Geçersiz Veri Türü</div>;
+    return (
+      <div>
+        <h1 className="mt-3">Geçersiz Veri Türü</h1>
+      </div>
+    );
   }
 
   return (
