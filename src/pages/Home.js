@@ -5,6 +5,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import CarouselCom from "../components/CarouselCom";
 import AccordionCom from "../components/AccordionCom";
+import ListGroupCom from "../components/ListGroupCom";
 
 const Home = () => {
   return (
@@ -21,7 +22,10 @@ const Home = () => {
           </Col>
         </Row>
         <Row>
-          <Col sm={12}>
+          <Col sm={6}>
+            <ListGroupCom />
+          </Col>
+          <Col sm={6}>
             <AccordionCom />
           </Col>
         </Row>

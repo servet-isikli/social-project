@@ -7,7 +7,7 @@ function AccordionCom() {
   const dataCategory = Object.keys(allData);
 
   return (
-    <Accordion>
+    <Accordion className="mt-3">
       {dataCategory.map((dataCategory) => (
         <Accordion.Item key={dataCategory} eventKey={dataCategory}>
           <Accordion.Header>{allData[dataCategory][0].header}</Accordion.Header>
