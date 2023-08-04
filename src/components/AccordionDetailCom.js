@@ -30,7 +30,7 @@ const AccordionDetailCom = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      Daha fazla bilgi için tıklayın
+                      {item.name}
                     </a>
                   )}
                 </Alert>
