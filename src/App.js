@@ -5,6 +5,7 @@ import FooterCom from "./components/FooterCom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Detail from "./pages/Detail";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="/detail/:dataCategory" element={<Detail />} />
         </Routes>
         <FooterCom />
